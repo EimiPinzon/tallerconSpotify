@@ -2,8 +2,7 @@ let objetoAJAX = new XMLHttpRequest();
 
 let url= "https://api.spotify.com/v1/artists/6urkHDoIVO1WO8vNIwcJmM/top-tracks?country=US";
 
-let token = "Bearer BQAw3Ldq7pGYlAxIKhIANx3-UkEHAo0a39xRMnPQluRLNqA1VoDR3NWGUFbjTg4kS0tLsiZ7gMVvYtYpjtgI-dQTE_MF2tgOnER1E0sNUk0s9hcTrG9Wl9nNzGqf7b87r22vYexcnSDk7QF_qw";
-
+let token = "Bearer BQA1reDia1dKGqqM2ofgug0uO8-VUkaiiI92XrkGlb9GIwQaxPYhmfxzI67HCfRh7egbHX1uNWK5oqSNZzzay86iAkEAH41I0iNnE90DGLW7tbdoo3xZUnLtubMpzrIEwZQ1rpUmYtPHc_439w";
 objetoAJAX.open('GET', url, true);
 
 objetoAJAX.setRequestHeader('Authorization', token);
